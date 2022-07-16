@@ -1,5 +1,6 @@
 body{
   font-family: 'Poppins', sans-serif;
+  margin: 0%;
 }
 
 h1{
@@ -16,4 +17,50 @@ h1{
 }
 .half-width img{
   width: 100%
+}
+.top-banner{
+  background-image: url(Complete-web-development-bnagla-resources--portfolio/top-banner.png);
+  background-repeat: no-repeat;
+}
+section{
+  height: 500px;
+  padding-bottom: 150px;
+}
+.hire-me-button-design{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, pink, rgb(255, 128, 119));
+  padding: 10px 20px;
+  border-radius: 10%;
+  color: aliceblue;
+}
+p{
+  color: rgb(102, 102, 102);
+}
+.dream-area{
+  background-image: url(Complete-web-development-bnagla-resources--portfolio/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.single-shadow{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  background-color: white;
+}
+.experience-area{
+  background-image: url(Complete-web-development-bnagla-resources--portfolio/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: 0px 50%;
+}
+#full-stack{
+  border-left: 7px solid;
+  border-image: linear-gradient(lightsalmon, tomato);
+  border-image-slice: 1%;
+}
+#baby-level{
+  border-left: 7px solid;
+  border-image: linear-gradient(pink,blue);
+  border-image-slice: 1%;
+}
+footer{
+  text-align: center;
 }
